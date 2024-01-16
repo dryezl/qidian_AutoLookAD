@@ -138,5 +138,5 @@ if (launchApp("起点读书")){
     toastLog("启动起点读书失败")
 }
 
-
+auto.powerOff()
 
