@@ -39,8 +39,8 @@ function ExprClick(str){
 }
 
 function CloseAd(caption){
-    toastLog("看视频等待20s" + caption)
-    sleep(20000)
+    toastLog("看视频等待60s" + caption)
+    sleep(60000)
     if(text("跳过广告").exists()){
         text("跳过广告").click() 
     }else{
@@ -56,10 +56,10 @@ function CloseAd(caption){
             });
         }       
     }        
-    sleep(1000)
+    sleep(2000)
     MyClick("我知道了")               
     toastLog("看视频结束: " + caption) 
-    sleep(1000)
+    sleep(2000)
 }
 
 function ClickAd8(){
